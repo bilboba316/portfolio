@@ -11,13 +11,21 @@
       font-family: Verdana;
       color: #454545;
     }
-    
+
     .title {
       max-width: 600px;
       margin: 0 auto;
       padding: 5px 20px;
       text-align: left;
       color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .title img {
+      height: 40px;
+      margin-left: 10px;
     }
 
     .content {
@@ -27,29 +35,47 @@
       text-align: left;
       background-color: white;
     }
-    
- .fancy-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
 
-.image {
-  flex: 1;
-  padding: 10px;
-}
+    .fancy-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+    }
 
-.image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
+    .image {
+      flex: 1;
+      padding: 10px;
+    }
 
-.text {
-  flex: 1;
-  padding: 10px;
-}
+    .image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .buttons {
+      max-width: 600px;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .buttons a img {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .buttons a img:hover {
+      transform: scale(1.1);
+    }
 
     a {
       color: #0077aa;
@@ -63,8 +89,10 @@
 </head>
 <body>
   <div class="title">
-  <h1>ПОРТФОЛІО</h1>
+    <h1>ПОРТФОЛІО</h1>
+    <img src="pics/sleepy dude.png" alt="пікча">
   </div>
+
   <div class="content">
     <div>
      <h1>Не знаю що сюди записати</h1>
@@ -76,11 +104,10 @@
     <li>Розвиваю свої навички у сфері гейм-деву</li>
     </ul>
     </div>
-   
-    
+
     <div>
      <h1>Моє натхнення</h1>
-    
+
     <div class="fancy-container">
     <div class="text">
     <p>
@@ -92,7 +119,7 @@
     <img src="pics/Newgrounds120.png" alt="абоба">
     </div>
     </div>
-    
+
     <div class="fancy-container">
     <div class="image">
     <img src="pics/Sburb_Logo.png" alt="абоба">
@@ -116,37 +143,22 @@
         та 
         <a href="https://store.steampowered.com/app/1671210/DELTARUNE/">Deltarune</a>.
         Неймовірно талановитий комозитор і талановитий гейм-дизайнер. Проте спрайти 
-        вже скоріше заслуга Теммі<img src="pics/Temmie.jpg"width="20" style="vertical-align: middle"></a>.
+        вже скоріше заслуга Теммі<img src="pics/Temmie.jpg" width="20" style="vertical-align: middle"></a>.
       </p>
       </div>
       <div class="image">
       <img src="pics/Toby Fox.jpg" alt="абоба">
       </div>
-      </div>
-
     </div>
-   
-    
+    </div>
   </div>
 
-  <div class="title">
-  <div class="fancy-container"> 
-    <div class ="text">
-    <a href="https://x.com/tobyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-    <img src="pics/icons8-github-96.png" width="96" style="vertical-align: middle"></a>
-    </div>
-
-    <div class ="text">
-    <a href="https://x.com/tobyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-    <img src="pics/icons8-github-96.png" width="96" style="vertical-align: middle"></a>
-    </div>
-
-    <div class ="text">
-    <a href="https://x.com/tobyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-    <img src="pics/icons8-github-96.png" width="96" style="vertical-align: middle"></a>
-    </div>
-
+  <div class="buttons">
+    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 1"></a>
+    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 2"></a>
+    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 3"></a>
+    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 4"></a>
   </div>
-  </div>
+
 </body>
 </html>
