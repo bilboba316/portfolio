@@ -27,6 +27,29 @@
       text-align: left;
       background-color: white;
     }
+    
+ .fancy-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.image {
+  flex: 1;
+  padding: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 1;
+  padding: 10px;
+}
 
     a {
       color: #0077aa;
@@ -40,17 +63,44 @@
 </head>
 <body>
   <div class="title">
-  <h1>ЗАГОЛОВОК</h1>
+  <h1>ПОРТФОЛІО</h1>
   </div>
   <div class="content">
-    <h1>Заголовок</h1>
+    <div>
+     <h1>Не знаю що сюди записати</h1>
     <p>Ось дещо про мене:</p>
     <ul>
     <li>Я зробив цей чудовий сайт</li>
-    <li>Я навчаюся на першому курсі факультету автоматизації і цифрових технологій у
+    <li>Навчаюся на першому курсі факультету автоматизації і цифрових технологій у
     <a href="https://www.knuba.edu.ua/">КНУБА</a></li>
-    <li></li>
+    <li>Розвиваю свої навички у сфері гейм-деву</li>
     </ul>
+    </div>
+   
+    
+    <div>
+     <h1>Моє натхнення</h1>
+    
+    <div class="fancy-container">
+    <div class="text">
+    <p>
+    <a href="https://www.newgrounds.com/">Newgrounds</a>. Я був дитиною з комп'ютером та вільним доступом до інтернету.
+    Тому мені пощастило відчути на собі епоху флеш-ігор. 
+    </p>
+    </div>
+    <div class="image">
+    <img src="https://kor.ill.in.ua/m/610x385/2722809.jpg" alt="абоба">
+    </div>
+    </div>
+    
+    <p>
+    Величезний вплив на мій стиль має інтернет комікс <a href="https://www.homestuck.com/story/1">Homestuck</a>.
+    Що досить легко помітити, порівнюючи сайти. Він сильно змінив мій візуальний стиль
+    та почуття гумору(можливо у гіршу сторону).
+    </p>
+    </div>
+   
+    
   </div>
 </body>
 </html>
