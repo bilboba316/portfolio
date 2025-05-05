@@ -12,28 +12,34 @@
       color: #454545;
     }
 
-    .title {
+    .main-container {
       max-width: 600px;
       margin: 0 auto;
-      padding: 5px 20px;
-      text-align: left;
-      color: #ffffff;
+      background-color: white;
+    }
+
+    .title {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 5px 20px;
+      color: #ffffff;
+      background-color: #525252;
+    }
+
+    .title h1 {
+      margin: 0;
+      color: white;
     }
 
     .title img {
-      height: 40px;
+      height: 80px;
       margin-left: 10px;
     }
 
     .content {
-      max-width: 600px;
-      margin: 0 auto;
       padding: 40px 20px;
       text-align: left;
-      background-color: white;
     }
 
     .fancy-container {
@@ -88,76 +94,78 @@
   </style>
 </head>
 <body>
-  <div class="title">
-    <h1>ПОРТФОЛІО</h1>
-    <img src="pics/sleepy dude.png" alt="пікча">
-  </div>
-
-  <div class="content">
-    <div>
-     <h1>Не знаю що сюди записати</h1>
-    <p>Ось дещо про мене:</p>
-    <ul>
-    <li>Я зробив цей чудовий сайт</li>
-    <li>Навчаюся на першому курсі факультету автоматизації і цифрових технологій у
-    <a href="https://www.knuba.edu.ua/">КНУБА</a></li>
-    <li>Розвиваю свої навички у сфері гейм-деву</li>
-    </ul>
+  <div class="main-container">
+    <div class="title">
+      <h1>ПОРТФОЛІО</h1>
+      <img src="pics/optional_image.png" alt="пікча">
     </div>
 
-    <div>
-     <h1>Моє натхнення</h1>
-
-    <div class="fancy-container">
-    <div class="text">
-    <p>
-    <a href="https://www.newgrounds.com/">Newgrounds</a>. Я був дитиною з комп'ютером та вільним доступом до інтернету.
-    Тому мені пощастило відчути на собі епоху флеш-ігор. 
-    </p>
-    </div>
-    <div class="image">
-    <img src="pics/Newgrounds120.png" alt="абоба">
-    </div>
-    </div>
-
-    <div class="fancy-container">
-    <div class="image">
-    <img src="pics/Sburb_Logo.png" alt="абоба">
-    </div>
-    <div class="text">
-    <p>
-    Величезний вплив на мій стиль має інтернет комікс <a href="https://www.homestuck.com/story/1">Homestuck</a>.
-    Що досить легко помітити, порівнюючи сайти. Він сильно змінив мій візуальний стиль
-    та почуття гумору(можливо у гіршу сторону).
-    </p>
-    </div>
-    </div>
-
-    <div class="fancy-container">
-      <div class="text">
-      <p>
-      Мій улюблений 
-      <a href="https://x.com/tobyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/">Toby Fox</a>. 
-       Один з найпопулярніших інді девелопер. Автор 
-       <a href="https://store.steampowered.com/app/391540/Undertale/?l=russian">Undertale</a>
-        та 
-        <a href="https://store.steampowered.com/app/1671210/DELTARUNE/">Deltarune</a>.
-        Неймовірно талановитий комозитор і талановитий гейм-дизайнер. Проте спрайти 
-        вже скоріше заслуга Теммі<img src="pics/Temmie.jpg" width="20" style="vertical-align: middle"></a>.
-      </p>
+    <div class="content">
+      <div>
+        <h1>Не знаю що сюди записати</h1>
+        <p>Ось дещо про мене:</p>
+        <ul>
+          <li>Я зробив цей чудовий сайт</li>
+          <li>Навчаюся на першому курсі факультету автоматизації і цифрових технологій у
+          <a href="https://www.knuba.edu.ua/">КНУБА</a></li>
+          <li>Розвиваю свої навички у сфері гейм-деву</li>
+        </ul>
       </div>
-      <div class="image">
-      <img src="pics/Toby Fox.jpg" alt="абоба">
+
+      <div>
+        <h1>Моє натхнення</h1>
+
+        <div class="fancy-container">
+          <div class="text">
+            <p>
+              <a href="https://www.newgrounds.com/">Newgrounds</a>. Я був дитиною з комп'ютером та вільним доступом до інтернету.
+              Тому мені пощастило відчути на собі епоху флеш-ігор. 
+            </p>
+          </div>
+          <div class="image">
+            <img src="pics/Newgrounds120.png" alt="абоба">
+          </div>
+        </div>
+
+        <div class="fancy-container">
+          <div class="image">
+            <img src="pics/Sburb_Logo.png" alt="абоба">
+          </div>
+          <div class="text">
+            <p>
+              Величезний вплив на мій стиль має інтернет комікс <a href="https://www.homestuck.com/story/1">Homestuck</a>.
+              Що досить легко помітити, порівнюючи сайти. Він сильно змінив мій візуальний стиль
+              та почуття гумору(можливо у гіршу сторону).
+            </p>
+          </div>
+        </div>
+
+        <div class="fancy-container">
+          <div class="text">
+            <p>
+              Мій улюблений 
+              <a href="https://x.com/tobyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/">Toby Fox</a>. 
+              Один з найпопулярніших інді девелопер. Автор 
+              <a href="https://store.steampowered.com/app/391540/Undertale/?l=russian">Undertale</a>
+              та 
+              <a href="https://store.steampowered.com/app/1671210/DELTARUNE/">Deltarune</a>.
+              Неймовірно талановитий комозитор і талановитий гейм-дизайнер. Проте спрайти 
+              вже скоріше заслуга Теммі<img src="pics/Temmie.jpg" width="20" style="vertical-align: middle">
+            </p>
+          </div>
+          <div class="image">
+            <img src="pics/Toby Fox.jpg" alt="абоба">
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 
   <div class="buttons">
-    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 1"></a>
-    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 2"></a>
-    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 3"></a>
-    <a href="#"><img src="pics/icons8-github-96.png" alt="Посилання 4"></a>
+    <a href="#"><img src="pics/link1.png" alt="Посилання 1"></a>
+    <a href="#"><img src="pics/link2.png" alt="Посилання 2"></a>
+    <a href="#"><img src="pics/link3.png" alt="Посилання 3"></a>
+    <a href="#"><img src="pics/link4.png" alt="Посилання 4"></a>
   </div>
 
 </body>
